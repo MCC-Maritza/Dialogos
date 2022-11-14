@@ -23,8 +23,7 @@ public class Cerrar extends WindowAdapter {
     public void windowclosing(WindowEvent evt) {
 
         if (otroDialogo != null) {
-            otroDialogo.dispose();
-            System.out.println("Programa");
+            otroDialogo.dispose();;
         } else {
             System.exit(0);
         }

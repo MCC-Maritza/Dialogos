@@ -24,7 +24,6 @@ public class Dialogos {
         Dialogo dialogoNoModal = new Dialogo(elMarco, "Dialogo no modal", false);
         dialogoNoModal.setBackground(Color.YELLOW);
         dialogoNoModal.getGraphics();
-        System.out.println("Se ejecuta el programa");
         
         /* setBounds coloca la esquina superior de:
         diálogo en la posición 100, 100 con respecto a su contenedor y establece 

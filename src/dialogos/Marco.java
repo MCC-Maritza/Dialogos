@@ -14,6 +14,5 @@ public class Marco extends Frame {
         Font letrero = new Font("Courier", Font.BOLD, 12);
         g.setFont(letrero);
         g.drawString("Bienvenid0 ai AWT", 24, 70);
-        System.out.println("Programa Marco");
     }
 }
